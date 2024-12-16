@@ -1,0 +1,19 @@
+[package]
+name = "o2-thing-client"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gloo = "0.11.0"
+# nostr-minions = "0.1.4"
+nostr-minions = { path = "../../minions" }
+serde.workspace = true
+serde_json.workspace = true
+# serde-wasm-bindgen.workspace = true
+upload-things.workspace = true
+wasm-bindgen-futures = "0.4.49"
+web-sys = { version = "0.3.76", features = ["Headers","HtmlImageElement","FormData","Request", "RequestInit", "RequestMode", "Response", "Window"] }
+yew = { version = "0.21.0", features = ["csr"] }
+
+[dev-dependencies]
+wasm-bindgen-test = "0.3.49"
