@@ -2,6 +2,13 @@
 name = "upload-things"
 version = "0.1.0"
 edition = "2021"
+edition = "2021"
+license = "MIT"
+description = "Nostro2 is a simple toolset for interacting with the Nostr protocol."
+repository = "https://github.com/illuminodes/bright-uploads.git"
+readme = "README.md"
+homepage = "https://github.com/illuminodes/bright-uploads"
+documentation = "https://docs.rs/nostro2/latest/nostro2/"
 
 [dependencies]
 anyhow.workspace = true

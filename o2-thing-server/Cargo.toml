@@ -9,15 +9,16 @@ path = "src/o2_thing.rs"
 
 [dependencies]
 anyhow.workspace = true
-axum = { version = "0.7.9", features = ["tokio", "json", "macros"] }
-reqwest = { version = "0.12.9", features = ["json","multipart"] }
 serde.workspace = true
 serde_json.workspace = true
+upload-things.workspace = true
+
+axum = { version = "0.7.9", features = ["tokio", "json", "macros"] }
+reqwest = { version = "0.12.9", features = ["json","multipart"] }
 tokio = { version = "1.42.0", features = ["rt-multi-thread", "sync", "macros"] }
 tower = "0.5.1"
 tower-http = { version = "0.6.2", features = ["fs", "trace", "set-header", "cors"] }
 tracing = "0.1.41"
 tracing-subscriber = "0.3.19"
-upload-things.workspace = true
 
 
