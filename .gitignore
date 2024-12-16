@@ -1,5 +1,7 @@
-/target
-/node_modules
+/**/target
+/**/dist
+/**/node_modules
 /**/*.lock 
 /**/*.lockb
+/**/output.css
 
